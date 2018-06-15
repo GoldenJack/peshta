@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+@import "node_modules/slick-carousel/slick/slick.scss";
+
+@import "fonts";
+@import "var";
+@import "mixins";
+@import "typography";
+@import "grid";
+@import "buttons";
+@import "forms";
+@import "common";
+@import "modals";
+
+
+
+
+.header {
+	height: 768px;
+	background: url('../images/back_01.png') no-repeat center top;
+	background-size: cover;
+}
+
+
+
+
+
+@import "media";

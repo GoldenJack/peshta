@@ -1,0 +1,25 @@
+p {
+    font-family: $ff;
+    font-size: $fs;
+}
+
+h1, h2, h3, h4, h5, h6, span, a {
+    font-family: $ff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+	font-size: 46px;
+}
+h3 {
+	font-size: 36px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+}
