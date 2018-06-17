@@ -1,0 +1,61 @@
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 0;
+}
+
+.btn__white {
+	background: #fff;
+	box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	font-family: $ff;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #D6212A;
+}
+
+.btn__arrow {
+	width: 230px;
+	position: relative;
+	@extend .btn__white;
+	&:after {
+		content: ' ';
+		display: block;
+		background: url(../images/Arrow.svg) no-repeat;
+		width: 18px;
+		height: 16px;
+		position: absolute;
+		right: 21px;
+	}
+}
+
+.btn__red {
+	background: #D6212A;
+	box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	font-family: $ff;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.btn__dload {
+	position: relative;
+	@extend .btn__red;
+	&:after {
+		content: ' ';
+		background: url(../images/dload.svg) no-repeat;
+		width: 22px;
+		height: 19px;
+		display: block;
+		position: absolute;
+		right: 37px;
+	}
+}

@@ -1,0 +1,58 @@
+input, textarea, select {
+	border: none;
+	outline: none;
+}
+
+.form__default {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.form__input {
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 11px 16px 10px;
+	font-family: $ff;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 14px;
+	color: #828282;
+}
+.form__select {
+	@extend .form__input;
+}
+
+.check__news {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+	input {
+		margin-right: 15px;
+	}
+	.check__news__text {
+		font-family: $ff;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 12px;
+		color: #FFFFFF;
+	}
+}
+.form__btn {
+	width: 100%;
+	margin-bottom: 16px;
+}
+.politics {
+	font-family: $ff;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	a {
+		text-decoration: underline;
+		color: #fff;
+	}
+}

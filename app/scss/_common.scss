@@ -2,9 +2,30 @@
 	text-transform: uppercase;
 	color: #D6212A;
 	font-weight: 900;
+	font-family: $ffcap;
 }
 .grey__caption {
 	text-transform: uppercase;
 	color: #BDBDBD;
 	font-weight: 900;
+	font-family: $ffcap;
+}
+.white {
+	color: white;
+}
+.arrow__item {
+	position: relative;
+	&:after {
+		content: ' ';
+		background: url(../images/Arrow.svg) no-repeat;
+		width: 18px;
+		height: 16px;
+		display: block;
+		position: absolute;
+		right: -16px;
+		top: 42px;
+	}
+}
+.bold {
+	font-weight: bold;
 }

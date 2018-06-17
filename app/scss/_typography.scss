@@ -2,8 +2,11 @@ p {
     font-family: $ff;
     font-size: $fs;
 }
+span, a {
+	font-family: $ff;
+}
 
-h1, h2, h3, h4, h5, h6, span, a {
+h1, h2, h3, h4, h5, h6 {
     font-family: $ff;
 }
 
