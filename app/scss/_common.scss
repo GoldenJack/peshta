@@ -29,3 +29,180 @@
 .bold {
 	font-weight: bold;
 }
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 27px;
+    z-index: 999;
+}
+
+.menu_trigger__icon {
+    font-family: 'Montserrat', sans-serif;
+    width: 22px;
+    height: 18px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.menu_trigger__icon .menu_trigger__icon__line {
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+}
+.menu_trigger__icon .menu_trigger__icon__line.line-1 {top: 0;   }
+.menu_trigger__icon .menu_trigger__icon__line.line-2 {
+	top: 40%; 
+    width: 50%;
+    left: 50%;
+}
+.menu_trigger__icon .menu_trigger__icon__line.line-3 {top: 80%;}
+
+.menu_trigger__icon.active .line-1 {
+    transform: translateY(15px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(15px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(15px) translateX(0) rotate(45deg);
+    top: -10px;
+}
+.menu_trigger__icon.active .line-2 {
+    opacity: 0;
+}
+.menu_trigger__icon.active .line-3 {
+	top: 17px;
+    transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-12px) translateX(0) rotate(-45deg);
+}
+
+.menu__btn.open {
+    .menu__mobile {
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        max-width: 320px;
+        width: 100%;
+        right: 0;
+        top: 100%;
+        background: #d6212a;
+        padding: 10px 15px 42px;
+        z-index: 999;
+        .menu__wrap {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            border-top: 1px solid #FFFFFF;
+            border-bottom: 1px solid #FFFFFF;
+            height: 235px;
+            justify-content: space-around;
+            margin-bottom: 49px;
+            .menu__wrap__link {
+                width: 100%;
+                font-family: $ff;
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+        .mobile__info {
+            .menu__info__item {
+                font-family: $ff;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                font-size: 18px;
+                color: #FFFFFF;
+                margin-bottom: 42px;
+                display: block;
+                &:nth-last-child(1) {
+                    margin-bottom: 31px;
+                }
+            }
+        }
+    }
+}
+
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 10%;
+    width: 65px;
+    height: 65px;
+    img {
+        width: 100%;
+    }
+}
+
+// carousel
+
+.prev {
+    position: absolute;
+    left: 15px;
+    // top: calc(50% - 38px);
+    top: 40px;
+    z-index: 999;
+}
+.next {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    // top: calc(50% - 38px);
+    z-index: 999;
+}
+.slider__stages .slick-list {
+    width: 100%;
+}
+.slick-dots li {
+    width: 9px;
+    height: 9px;
+    border: 1px solid #BDBDBD;
+    border-radius: 50px;
+}
+.slick-dots li.slick-active {
+    background: #D6212A;
+    border-color: #D6212A!important;
+}
+.partners__slider {
+    .next, .prev {
+        top: calc(50% - 38px);
+    }
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slick-dots {
+    position: relative;
+    bottom: 0;
+}
+
+.slider__result {
+    .slick-dots li.slick-active {
+        background:#fff;
+        border-color: #fff!important;
+    }
+    .prev, .next {
+        svg {
+            circle {
+                stroke: #fff;
+            }
+            path {
+                fill: #fff;
+            }
+        }
+    }
+}
+.partners__slider.slick-initialized.slick-slider {
+    flex-flow: column;
+}

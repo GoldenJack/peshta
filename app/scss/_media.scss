@@ -1,0 +1,192 @@
+@media screen and (max-width: 1200px) {
+	.header__reset__padding {
+		padding-right: 15px;
+	}
+	.callback__input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.header__phone__box,
+	.header__address__box,
+	.header__mail__box,
+	.header__cb__box,
+	.header__menu__box,
+	.header__menu__box__clear {
+		display: none;
+	}
+	.header__wrap {
+		padding-bottom: 22px;
+		margin-bottom: 0;
+	}
+	.menu__btn {
+		display: block;
+	}
+	.smart__info {
+		padding-top: 28px;
+	}
+	.dignity {
+		padding: 67px 0 54px;
+	}
+	.smart__info__image {
+		margin-bottom: 25px;
+	}
+	.manufacturer {
+		margin-bottom: 24px;
+	}
+	.manufacturer__image {
+		order: 1;
+		margin-bottom: 26px;
+	}
+	.manufacturer__desc {
+		order: 2;
+	}
+	.callback {
+		background: url(../images/mobile_middle.png) no-repeat center;
+		background-size: cover;
+		padding: 33px 0 29px;
+	}
+	.callback__caption {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	.callback__input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.callback__info {
+		margin-bottom: 10px;
+	}
+	.work__desc {
+		margin-bottom: 0;
+	}
+	.slider__work .slick-dots {
+		margin-bottom: 49px;
+	}
+	.guide__box {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		background: url(../images/back_01_3_mob.png) no-repeat center;
+		background-size: cover;
+	}
+	.header__content__caption {
+		font-size: 24px;
+		margin-top: 81px;
+	}
+	.btn__arrow {
+		width: 100%;
+	}
+	.header__down {
+		margin-top: 72px;
+		margin-bottom: 34px;
+	}
+	.header {
+		height: 100%;
+	}
+	.caption {
+		font-size: 24px;
+	}
+	.dignity__caption {
+		margin-bottom: 0;
+	}
+	.list__item__caption {
+		font-size: 14px;
+	}
+	.buyer__image {
+		margin-bottom: 24px;
+	}
+	.gift {
+		background: url(../images/mobile_middle.png) no-repeat center;
+		background-size: cover;
+		padding: 80px 0;
+	}
+	.gift__caption {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.work {
+		padding-top: 33px;
+	}
+	.work__subtitle {
+		margin-bottom: 24px;
+	}
+	.develop {
+		background: url(../images/mobile_middle.png) no-repeat center;
+		background-size: cover;
+		padding: 73px 0 72px;
+		margin-top: 0;
+	}
+	.develop__caption {
+		font-size: 24px;
+		margin-bottom: 31px;
+	}
+	.stages {
+		padding: 63px 0 53px;
+	}
+	.stages__caption {
+		margin-bottom: 20px;
+	}
+	.arrow__item:after {
+		display: none;
+	}
+	.develop__2 {
+		background: url(../images/mobile_razrab.png) no-repeat center;
+		background-size: cover;
+		padding: 77px 0 78px;
+	}
+	.develop__2__caption {
+		font-size: 24px;
+		margin-bottom: 37px;
+	}
+	.guide {
+		padding: 58px 0;
+	}
+	.guide__image {
+		margin-bottom: 22px;
+	}
+	.guide__caption {
+		margin-bottom: 10px;
+	}
+	.guide__desc {
+		margin-bottom: 14px;
+	}
+	.result {
+		background: url(../images/result_mob.png) no-repeat center;
+		background-size: cover;
+		padding: 68px 0 64px;
+	}
+	.header__reset__padding {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.footer__menu {
+		margin-bottom: 14px;
+	}
+	.footer__logo {
+		margin-top: 24px;
+		justify-content: center;
+	}
+	.prev {
+	    top: calc(50% - 38px);
+	}
+	.next {
+	    top: calc(50% - 38px);
+	}
+	.up {
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cb__wrap {
+		max-width: 290px;
+		width: 100%;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,53 @@
+.modals {
+    display: none;
+}
+.modal__body {
+    padding-top: 14px;
+}
+.modal__caption {
+    display: flex;
+    align-items: center;
+}
+.close {
+    position: relative;
+    margin-left: auto;
+    width: 19px;
+    height: 18px;
+    &:after {
+        content: ' ';
+        position: absolute;
+        right: 0;
+        top: calc(50% - 9px);
+        width: 17px;
+        height: 17px;
+        background: url(../images/close.png) no-repeat;
+        cursor: pointer;
+    }
+}
+.form__modal {
+	display: flex;
+	flex-flow: column;
+}
+.form__modal__btn {
+	width: 100%;
+}
+.modal__input, .modal__select {
+	border: 1px solid #E0E0E0;
+	margin-bottom: 18px;
+}
+.contact__info {
+	margin-bottom: 28px;
+}
+.check__news__modal {
+	margin: 9px 0 27px 0;
+	.check__news__text {
+		color: #828282;
+	}
+}
+.modal__politics {
+	margin-top: 16px;
+	color: #828282;
+	a {
+		color: #828282;
+	}
+}

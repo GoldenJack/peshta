@@ -35,9 +35,13 @@ html, body {
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 40px;
+	position: relative;
 }
 .header__info {
 	padding-top: 20px;
+}
+.menu__mobile {
+	display: none;
 }
 .header__phone,
 .header__address,
@@ -73,6 +77,9 @@ html, body {
 .header__reset__padding {
 	padding-right: 0;
 }
+.menu__btn {
+	display: none;
+}
 .header__content__caption {
     display: flex;
     flex-flow: column;
@@ -95,7 +102,10 @@ html, body {
 
 
 .smart__info {
-	margin-top: 138px;
+	padding-top: 138px;
+}
+.smart__info__image {
+	width: 100%;
 }
 .smart__info__text {
 	display: flex;
@@ -111,8 +121,9 @@ html, body {
 	font-weight: normal;
 	line-height: normal;
 	font-size: 14px;
-	width: 450px;
+	max-width: 450px;
 	color: #4F4F4F;
+	width: 100%;
 }
 
 .dignity {
@@ -166,7 +177,12 @@ html, body {
 .manufacturer__image, 
 .buyer__image {
 	display: flex;
-	align-items: flex-end
+	align-items: flex-end;
+	img {
+		max-width: 540px;
+		margin: 0 auto;
+		width: 100%;
+	}
 }
 .gift {
 	background: url(../images/dload_back.png) no-repeat;
@@ -215,14 +231,19 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    width: 100%;
 }
 .work__item {
-    flex: 0 0 25%;
+	flex: 0 0 25%;
+}
+.work__item__box {
+    max-width: 256px;
     padding: 0 15px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
 }
 .work__item__image {
 	margin-bottom: 30px;
@@ -272,11 +293,12 @@ html, body {
 }
 .stages__caption {
 	margin-bottom: 51px;
+	max-width: 920px;
 }
 
 .develop__2 {
 	padding: 112px 0 101px;
-	background: url(../images/razrab.png) no-repeat;
+	background: url(../images/razrab.png) no-repeat center;
 	background-size: cover;
 }
 .develop__2__caption {
@@ -299,6 +321,9 @@ html, body {
 	align-items: flex-end;
     margin-bottom: 70px;
 	justify-content: center;
+}
+.guide__image {
+	width: 100%;
 }
 .guide__caption {
 	margin-bottom: 24px;
@@ -339,6 +364,7 @@ html, body {
 
 .partners {
 	padding-top: 70px;
+	padding-bottom: 68px;
 }
 .partners__caption {
 	font-family: $ffcap;
@@ -348,6 +374,9 @@ html, body {
 	text-transform: uppercase;
 	color: #D6212A;
 	margin-bottom: 22px;
+}
+.partner.slick-slide {
+	display: flex;
 }
 .partner {
 	width: 256px;
@@ -365,6 +394,7 @@ html, body {
 	padding: 256px 0 89px;
 	background: url(../images/steps.png) no-repeat;
 	background-size: cover;
+    background-position: 50%;
 }
 .callback__caption {
 	font-family: $ffcap;
